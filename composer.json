@@ -30,7 +30,7 @@
         "filament-shield",
         "spatie-permission"
     ],
-    "homepage": "https://github.com/sghazanfari/filament-persian",
+    "homepage": "https://github.com/ghazanfaris/filament-persian",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -91,11 +91,5 @@
         "source": "https://github.com/sghazanfari/filament-persian",
         "docs": "https://github.com/sghazanfari/filament-persian/blob/main/README.md",
         "email": "dr.sgh67@gmail.com"
-    },
-    "funding": [
-        {
-            "type": "custom",
-            "url": "https://github.com/sponsors/sghazanfari"
-        }
-    ]
+    }
 }
