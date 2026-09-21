@@ -109,8 +109,8 @@
 
 اگر باگی پیدا کردی یا پیشنهادی داری:
 
-- [GitHub Issues](https://github.com/sghazanfari/filament-persian/issues)
-- [GitHub Discussions](https://github.com/sghazanfari/filament-persian/discussions)
+- [GitHub Issues](https://github.com/ghazanfaris/filament-persian/issues)
+- [GitHub Discussions](https://github.com/ghazanfaris/filament-persian/discussions)
 
 ## تشکر
 

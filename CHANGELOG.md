@@ -138,6 +138,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-[Unreleased]: https://github.com/sghazanfari/filament-persian/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/sghazanfari/filament-persian/releases/tag/v1.0.0
-[0.0.1]: https://github.com/sghazanfari/filament-persian/releases/tag/v0.0.1
+[Unreleased]: https://github.com/ghazanfaris/filament-persian/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/ghazanfaris/filament-persian/releases/tag/v1.0.0
+[0.0.1]: https://github.com/ghazanfaris/filament-persian/releases/tag/v0.0.1

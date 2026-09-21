@@ -2,7 +2,7 @@
 
 > کامل‌ترین پکیج فارسی‌سازی برای Filament v5 — تقویم جلالی، RTL، اعتبارسنجی ایرانی، اعداد فارسی و ۱۰ قالب صفحه ورود.
 
-[![Latest Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/sghazanfari/filament-persian/releases)
+[![Latest Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/ghazanfaris/filament-persian/releases)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE.md)
 [![PHP](https://img.shields.io/badge/PHP-%5E8.2-blue.svg)](https://php.net)
 [![Laravel](https://img.shields.io/badge/Laravel-11%20%7C%2012%20%7C%2013-red.svg)](https://laravel.com)
@@ -387,7 +387,7 @@ php artisan filament-persian:seed-cities --fresh
 Pull Request ها پذیرفته می‌شوند. برای تغییرات بزرگ، اول Issue باز کن.
 
 ```bash
-git clone https://github.com/sghazanfari/filament-persian.git
+git clone https://github.com/ghazanfaris/filament-persian.git
 cd filament-persian
 composer install
 ```
@@ -411,9 +411,9 @@ MIT License. [LICENSE.md](LICENSE.md) را ببین.
 
 ## 🔗 لینک‌های مفید
 
-- [GitHub](https://github.com/sghazanfari/filament-persian)
-- [Issues](https://github.com/sghazanfari/filament-persian/issues)
-- [Releases](https://github.com/sghazanfari/filament-persian/releases)
+- [GitHub](https://github.com/ghazanfaris/filament-persian)
+- [Issues](https://github.com/ghazanfaris/filament-persian/issues)
+- [Releases](https://github.com/ghazanfaris/filament-persian/releases)
 
 ---
 

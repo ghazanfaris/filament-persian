@@ -87,9 +87,9 @@
     "minimum-stability": "stable",
     "prefer-stable": true,
     "support": {
-        "issues": "https://github.com/sghazanfari/filament-persian/issues",
-        "source": "https://github.com/sghazanfari/filament-persian",
-        "docs": "https://github.com/sghazanfari/filament-persian/blob/main/README.md",
+        "issues": "https://github.com/ghazanfaris/filament-persian/issues",
+        "source": "https://github.com/ghazanfaris/filament-persian",
+        "docs": "https://github.com/ghazanfaris/filament-persian/blob/main/README.md",
         "email": "dr.sgh67@gmail.com"
     }
 }
