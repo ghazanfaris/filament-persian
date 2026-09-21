@@ -10,6 +10,7 @@ use Sghazanfari\FilamentPersian\Commands\InstallCommand;
 use Illuminate\Support\Facades\File;
 
 use Sghazanfari\FilamentPersian\Commands\SeedCitiesCommand;
+use Sghazanfari\FilamentPersian\Commands\HealthCheckCommand;
 
 class FilamentPersianServiceProvider extends ServiceProvider
 {
@@ -47,6 +48,7 @@ class FilamentPersianServiceProvider extends ServiceProvider
                 InstallCommand::class,
                 DoctorCommand::class,
                 SeedCitiesCommand::class,
+                HealthCheckCommand::class,
             ]);
         }
         $this->registerMigrations();
