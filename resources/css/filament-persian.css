@@ -1,0 +1,148 @@
+/* =========================================================
+   Filament Persian — RTL Fixes (Aggressive)
+   ========================================================= */
+
+/* ============ راه‌حل سراسری: هر چیزی داخل پنل ============ */
+[dir="rtl"] table,
+[dir="rtl"] thead,
+[dir="rtl"] tbody,
+[dir="rtl"] tr,
+[dir="rtl"] th,
+[dir="rtl"] td,
+[dir="rtl"] .fi-ta,
+[dir="rtl"] .fi-ta-ctn,
+[dir="rtl"] .fi-ta-table,
+[dir="rtl"] .fi-ta-header,
+[dir="rtl"] .fi-ta-header-cell,
+[dir="rtl"] .fi-ta-header-cell *,
+[dir="rtl"] .fi-ta-cell,
+[dir="rtl"] .fi-ta-cell *,
+[dir="rtl"] .fi-ta-text,
+[dir="rtl"] .fi-ta-text *,
+[dir="rtl"] .fi-ta-text-item,
+[dir="rtl"] .fi-ta-text-item * {
+    text-align: right !important;
+    justify-content: flex-start !important;
+    direction: rtl !important;
+}
+
+/* دکمه‌های sort در هدر جدول */
+[dir="rtl"] .fi-ta-header-cell button,
+[dir="rtl"] .fi-ta-header-cell a {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: flex-start !important;
+    text-align: right !important;
+}
+
+/* آیکون sort بعد از متن */
+[dir="rtl"] .fi-ta-header-cell svg {
+    margin-inline-start: 4px;
+    margin-inline-end: 0;
+}
+
+/* ============ Sidebar / منو ============ */
+[dir="rtl"] .fi-sidebar,
+[dir="rtl"] .fi-sidebar-nav,
+[dir="rtl"] .fi-sidebar-nav-groups,
+[dir="rtl"] .fi-sidebar-group,
+[dir="rtl"] .fi-sidebar-group-label,
+[dir="rtl"] .fi-sidebar-item,
+[dir="rtl"] .fi-sidebar-item *,
+[dir="rtl"] .fi-sidebar-item-button,
+[dir="rtl"] .fi-sidebar-item-button * {
+    text-align: right !important;
+    justify-content: flex-start !important;
+    direction: rtl !important;
+}
+
+[dir="rtl"] .fi-sidebar-item a,
+[dir="rtl"] .fi-sidebar-item button {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: flex-start !important;
+}
+
+/* آیتم فعال منو */
+[dir="rtl"] .fi-sidebar-item-active,
+[dir="rtl"] .fi-sidebar-item-active * {
+    text-align: right !important;
+    justify-content: flex-start !important;
+}
+
+/* گروه‌های منو */
+[dir="rtl"] .fi-sidebar-group-label {
+    width: 100% !important;
+    text-align: right !important;
+    display: block !important;
+}
+
+/* ============ Topbar و User Menu ============ */
+[dir="rtl"] .fi-topbar,
+[dir="rtl"] .fi-topbar * {
+    direction: rtl !important;
+}
+
+[dir="rtl"] .fi-user-menu,
+[dir="rtl"] .fi-user-menu * {
+    text-align: right !important;
+}
+
+/* ============ Dropdown ============ */
+[dir="rtl"] .fi-dropdown-panel,
+[dir="rtl"] .fi-dropdown-list,
+[dir="rtl"] .fi-dropdown-list-item,
+[dir="rtl"] .fi-dropdown-list-item * {
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+[dir="rtl"] .fi-dropdown-list-item {
+    flex-direction: row !important;
+    justify-content: flex-start !important;
+}
+
+/* ============ Breadcrumb ============ */
+[dir="rtl"] .fi-breadcrumbs,
+[dir="rtl"] .fi-breadcrumbs ol,
+[dir="rtl"] .fi-breadcrumbs li,
+[dir="rtl"] .fi-breadcrumbs * {
+    direction: rtl !important;
+    flex-direction: row !important;
+}
+
+/* ============ فیلترها ============ */
+[dir="rtl"] .fi-ta-filters,
+[dir="rtl"] .fi-ta-filters * {
+    text-align: right !important;
+}
+
+[dir="rtl"] .fi-fo-field-wrp label,
+[dir="rtl"] .fi-fo-field-wrp .fi-fo-field-wrp-label {
+    width: 100% !important;
+    text-align: right !important;
+    display: block !important;
+}
+
+/* ============ تب‌ها ============ */
+[dir="rtl"] .fi-tabs,
+[dir="rtl"] .fi-tabs * {
+    direction: rtl !important;
+}
+
+/* ============ ردیف عملیات جدول ============ */
+[dir="rtl"] .fi-ta-actions {
+    justify-content: flex-start !important;
+}
+
+[dir="rtl"] .fi-ta-cell:last-child {
+    text-align: left !important;
+}
+
+/* ============ Tooltip ============ */
+[dir="rtl"] .fi-tooltip {
+    direction: rtl !important;
+    text-align: right !important;
+}

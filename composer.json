@@ -1,0 +1,101 @@
+{
+    "name": "sghazanfari/filament-persian",
+    "description": "Complete Persian (Farsi) localization for Filament v5 — Jalali calendar, RTL, Iranian validations, Persian numbers, and 10 login templates.",
+    "keywords": [
+        "filament",
+        "filamentphp",
+        "filament-persian",
+        "laravel",
+        "laravel-persian",
+        "persian",
+        "farsi",
+        "jalali",
+        "shamsi",
+        "jalali-calendar",
+        "rtl",
+        "iran",
+        "iranian",
+        "persian-date",
+        "jalali-date",
+        "persian-numbers",
+        "iranian-validation",
+        "national-code",
+        "sheba",
+        "iranian-mobile",
+        "iranian-banks",
+        "iranian-cities",
+        "iranian-holidays",
+        "persian-search",
+        "login-templates",
+        "filament-shield",
+        "spatie-permission"
+    ],
+    "homepage": "https://github.com/sghazanfari/filament-persian",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Sajjad Ghazanfari",
+            "email": "dr.sgh67@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "filament/filament": "^4.0|^5.0",
+        "illuminate/support": "^11.0|^12.0|^13.0",
+        "illuminate/database": "^11.0|^12.0|^13.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.0|^10.0|^11.0",
+        "pestphp/pest": "^3.0|^4.0",
+        "pestphp/pest-plugin-laravel": "^3.0|^4.0"
+    },
+    "suggest": {
+        "bezhansalleh/filament-shield": "برای مدیریت نقش‌ها و مجوزها (^4.0)",
+        "spatie/laravel-permission": "برای سیستم نقش و مجوز (^6.0)",
+        "spatie/laravel-medialibrary": "برای مدیریت فایل‌ها و مدیا"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sghazanfari\\FilamentPersian\\": "src/"
+        },
+        "files": [
+            "src/Support/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sghazanfari\\FilamentPersian\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sghazanfari\\FilamentPersian\\FilamentPersianServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        },
+        "optimize-autoloader": true,
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "support": {
+        "issues": "https://github.com/sghazanfari/filament-persian/issues",
+        "source": "https://github.com/sghazanfari/filament-persian",
+        "docs": "https://github.com/sghazanfari/filament-persian/blob/main/README.md",
+        "email": "dr.sgh67@gmail.com"
+    },
+    "funding": [
+        {
+            "type": "custom",
+            "url": "https://github.com/sponsors/sghazanfari"
+        }
+    ]
+}
