@@ -1,6 +1,6 @@
 {
     "name": "sghazanfari/filament-persian",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Complete Persian (Farsi) localization for Filament v5 — Jalali calendar, RTL, Iranian validations, Persian numbers, and 10 login templates.",
     "keywords": [
         "filament",
