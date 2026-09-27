@@ -67,12 +67,29 @@ class FilamentPersianPlugin implements Plugin
         $css = file_exists($cssPath) ? file_get_contents($cssPath) : '';
 
         $html = '';
+
+        // CSS اصلی پکیج
         if ($css) {
             $html .= "<style>{$css}</style>";
         }
+
+        // تزریق font-family سراسری
+        $fontFamily = FontManager::currentFont()['family'] ?? 'Vazirmatn';
+        $fontCss = <<<CSS
+            html, body, button, input, textarea, select,
+            .fi-body, .fi-sidebar, .fi-topbar, .fi-main,
+            [class^="fi-"], [class*=" fi-"] {
+                font-family: '{$fontFamily}', system-ui, -apple-system, sans-serif !important;
+            }
+        CSS;
+        $html .= "<style>{$fontCss}</style>";
+
+        // JS تقویم
         if ($calendarJs) {
             $html .= "<script>{$calendarJs}</script>";
         }
+
+        // JS Command Palette
         if ($commandPaletteJs) {
             $html .= "<script>{$commandPaletteJs}</script>";
         }
