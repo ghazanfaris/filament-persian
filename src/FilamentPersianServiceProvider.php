@@ -11,9 +11,30 @@ use Illuminate\Support\Facades\File;
 
 use Sghazanfari\FilamentPersian\Commands\SeedCitiesCommand;
 use Sghazanfari\FilamentPersian\Commands\HealthCheckCommand;
+use Filament\FontProviders\LocalFontProvider;
+use Filament\Panel;
+use Sghazanfari\FilamentPersian\Settings\FontManager;
 
 class FilamentPersianServiceProvider extends ServiceProvider
 {
+
+    /**
+     * اعمال خودکار فونت روی همه پنل‌ها.
+     */
+    protected function configurePanels(): void
+    {
+        Panel::configureUsing(function (Panel $panel) {
+            $font = FontManager::currentFont();
+
+            if ($font && ! empty($font['url'])) {
+                $panel->font(
+                    $font['family'],
+                    url: $font['url'],
+                    provider: LocalFontProvider::class,
+                );
+            }
+        });
+    }
     public function register(): void
     {
         $this->mergeConfigFrom(
@@ -52,6 +73,7 @@ class FilamentPersianServiceProvider extends ServiceProvider
             ]);
         }
         $this->registerMigrations();
+        $this->configurePanels();
     }
 
     protected function registerMigrations(): void
